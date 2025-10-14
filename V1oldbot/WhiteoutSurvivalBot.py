@@ -62,10 +62,10 @@ def load_settings():
 
 settings = load_settings()
 
-BOT_TOKEN = settings['BOT_TOKEN']
+BOT_TOKEN = settings['MTQyNzQ0ODE5NDY2ODY5MTQ3Ng.GMXsuu.3Hrq3YwgtJ7yMTpf_swnMF-WicZTcuxfHQ-GQ4']
 SECRET = settings['SECRET']
-CHANNEL_ID = int(settings['CHANNEL_ID'])
-ALLIANCE_NAME = settings['ALLIANCE_NAME']
+CHANNEL_ID = int(settings['1427434767359410350'])
+ALLIANCE_NAME = settings['AIR']
 
 @bot.command(name='allistadd')
 async def add_user(ctx, ids: str):
